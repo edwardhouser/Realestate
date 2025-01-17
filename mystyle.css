@@ -1,0 +1,223 @@
+/* Global */
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    font-family: "roboto", serif;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex:1;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    line-height: 2;
+}
+
+h2,h3{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+img{
+    max-width: 100%;
+}
+
+.button{
+    background-color: rgb(215, 113, 24);
+    border:1px solid black;
+    color:white;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 16px;
+    width:100%;
+
+
+
+
+}
+
+/* Utilities */
+
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/* Header */
+.header-style{
+    min-height: 300px;
+    background-image: url(/img/header.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+
+
+}
+
+.menu-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+
+}
+
+.menu a{
+    margin-right: 30px;
+    color: white;
+
+}
+
+/* More about us section*/
+
+.more-about-container{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+
+}
+
+.more-about-item{
+    padding: 10px;
+}
+
+/* Houses and Penthouses Section*/
+
+.houses-container{
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+
+}
+
+.houses-item{
+    max-width: 25%;
+    padding: 30px;
+    background-color: rgba(86, 124, 91, 0.398);
+    border: 1px solid black;
+    margin: 30px;
+
+
+}
+
+.houses-item-img{
+}
+
+.houses-item-text{
+    padding: 20px;
+
+
+}
+
+.details-btn{
+    background-color: orangered;
+    align-items: center;
+}
+.list-icons{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:75%;
+    padding: 10px;
+
+}
+
+.list-icons li{
+    display: flex;
+    justify-content:space-evenly;
+    width: 250px;
+    padding: 10px;
+
+}
+
+/* Contact Page */
+
+.contact-text{
+    text-align: center;
+
+
+}
+
+.contact-form{
+    
+    width: 60%;
+    background-color: rgba(128, 128, 128, 0.603);
+    padding:15px;
+    border: 2px solid black;
+    
+    
+
+
+
+}
+
+.form-control{
+    margin: 10px;
+    display: flex;
+}
+
+.form-control label{
+    width: 20%;
+}
+
+.form-control input{
+    width: 70%;
+}
+
+fieldset{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    
+    
+    
+
+}
+.contact-footer{
+    display: flex;
+    height: 150px;
+    background-color: black;
+    margin-top: 30px;
+    border-top: 2px solid red;
+    color:white;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-footer label{
+
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.fa-brands{
+    font-size: 36pt;
+    padding: 20px;
+    border-radius: 50%;
+    border: 2px solid red;
+
+}
